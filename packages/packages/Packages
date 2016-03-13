@@ -1,0 +1,1115 @@
+Package: aria2
+Version: 1.18.7-1
+Depends: libc, zlib, libxml2, libstdcpp, libopenssl
+Source: feeds/packages/net/aria2
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 926382
+Filename: aria2_1.18.7-1_ar71xx.ipk
+Size: 924338
+MD5Sum: 2937566d873c38da917c5c6ba3c519de
+SHA256sum: 4ae694c22f427328fbb49269aae43b5016c44ff13787262827750f7ce1233c7a
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility
+
+Package: certtool
+Version: 3.3.16-1
+Depends: libc, libgnutls
+Source: feeds/packages/libs/gnutls
+Section: utils
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: ar71xx
+Installed-Size: 89261
+Filename: certtool_3.3.16-1_ar71xx.ipk
+Size: 89748
+MD5Sum: 36bb73c2ce2a7c133c2a58ee9ac700dd
+SHA256sum: 766aee108711f92de5ee96a165e724f16e7fefd51e308d1e9cd54d73ed04fae2
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS certtool utility.
+
+Package: collectd-mod-interface
+Version: 4.10.8-3
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2149
+Filename: collectd-mod-interface_4.10.8-3_ar71xx.ipk
+Size: 2741
+MD5Sum: e207df66c729f75c75874eb3b573f5b6
+SHA256sum: ba2f9e6ef870fdbeed8b308a37c560309cecc97d4665d1fa9ba64a805a83cce0
+Description:  network interfaces input plugin
+
+Package: collectd-mod-iwinfo
+Version: 4.10.8-3
+Depends: libc, collectd, libiwinfo
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2710
+Filename: collectd-mod-iwinfo_4.10.8-3_ar71xx.ipk
+Size: 3298
+MD5Sum: 614ed8552cb65cd35455747d70fd3b4f
+SHA256sum: 234b7b7f8cd12b4bee42d8b1e36362c487921093bd40c37118878c18c253986e
+Description:  libiwinfo wireless statistics plugin
+
+Package: collectd-mod-load
+Version: 4.10.8-3
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 1875
+Filename: collectd-mod-load_4.10.8-3_ar71xx.ipk
+Size: 2454
+MD5Sum: e46b2b69ab7074d330d2eaa9fbe19195
+SHA256sum: c2a6773ddcb92a9e4188f2a406b27bded59bfe274b50c0403be5278dab9ee94c
+Description:  system load input plugin
+
+Package: collectd-mod-network
+Version: 4.10.8-3
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 13095
+Filename: collectd-mod-network_4.10.8-3_ar71xx.ipk
+Size: 13645
+MD5Sum: 1693399b66de71e2551295abb843f1d1
+SHA256sum: c9d1474b51c54ad65af62f7b4e11ff00d528c6b4f271b81c3da441e7f8af7967
+Description:  network input/output plugin
+
+Package: collectd-mod-rrdtool
+Version: 4.10.8-3
+Depends: libc, collectd, librrd1
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 9092
+Filename: collectd-mod-rrdtool_4.10.8-3_ar71xx.ipk
+Size: 9654
+MD5Sum: 1a27a5008d01f8fafb1b4686f5235ba6
+SHA256sum: 74acfa2e6c9b7a6d94ba0f1197bcf298ccfeec515e9588d4ab8d40110d8739f9
+Description:  RRDtool output plugin
+
+Package: collectd
+Version: 4.10.8-3
+Depends: libc, libpthread, zlib, libltdl, libip4tc
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 57511
+Filename: collectd_4.10.8-3_ar71xx.ipk
+Size: 58193
+MD5Sum: 45cf6e405e131f52ddaa2503433bfc4f
+SHA256sum: 21083f57f8a5d697145ebbe901d39f5bfca517288fff58bb7436607324afd398
+Description:  collectd is a small daemon which collects system information periodically
+ and provides mechanismns to store the values in a variety of ways.
+
+Package: cshark
+Version: 2014-07-02-ec638311b0b8ef74baf0be06dcf03a641e3308a2
+Depends: libc, libjson-c, libpcap, libuci, libubox, libuclient, libustream-polarssl
+Source: feeds/packages/net/cshark
+Section: net
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 8151
+Filename: cshark_2014-07-02-ec638311b0b8ef74baf0be06dcf03a641e3308a2_ar71xx.ipk
+Size: 8774
+MD5Sum: 719559f16f0bfd3429e3848898ed0fb9
+SHA256sum: c5e1303e957940a04a9d45cc10e40c3beb98cf747cb3b52b31144cce320d0e5a
+Description:  CloudShark capture tool
+
+Package: ddns-scripts
+Version: 1.0.0-23
+Depends: libc
+Source: feeds/packages/net/ddns-scripts
+License: GPL-2.0
+Section: net
+Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
+Architecture: all
+Installed-Size: 7218
+Filename: ddns-scripts_1.0.0-23_all.ipk
+Size: 7878
+MD5Sum: 2de4be8a0acef5c741e42411b6c6fc2a
+SHA256sum: 6b849c3e83c8b9e79d668c4d358a0e2f54bbf063c7da3b01bf968d9a0c79a36f
+Description:  A highly configurable set of scripts for doing
+ dynamic dns updates
+
+Package: etherwake
+Version: 1.09-3
+Depends: libc
+Source: feeds/packages/net/etherwake
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ar71xx
+Installed-Size: 4920
+Filename: etherwake_1.09-3_ar71xx.ipk
+Size: 5675
+MD5Sum: 8a404b0d972cf041708113a23624e601
+SHA256sum: 1ce91d38fa89115d8d4fb55274cc07827b3e8faebdb0aad1a42c9f4f31847102
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: libdaemon
+Version: 0.14-4
+Depends: libc
+Source: feeds/packages/libs/libdaemon
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ar71xx
+Installed-Size: 7582
+Filename: libdaemon_0.14-4_ar71xx.ipk
+Size: 8488
+MD5Sum: 77c8db0efd648b22b5071d9fb1300606
+SHA256sum: 4df061c810f39207828c36817c08cea5e6ca631dcde12b5f5fee868fd7809c88
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libgcrypt
+Version: 1.6.1-1
+Depends: libc, libgpg-error
+Source: feeds/packages/libs/libgcrypt
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: ar71xx
+Installed-Size: 280442
+Filename: libgcrypt_1.6.1-1_ar71xx.ipk
+Size: 278574
+MD5Sum: 060b6486e6557884a0d285d2730afa40
+SHA256sum: 692abe19cf1cafacb6c26b447d651d0d412878fc388c319493d293e55087a2fd
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
+Package: libgd
+Version: 2.1.0-1
+Depends: libc, libjpeg, libpng
+Source: feeds/packages/libs/libgd
+License: MIT
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 98882
+Filename: libgd_2.1.0-1_ar71xx.ipk
+Size: 97630
+MD5Sum: 724b3fcc08ad41f33b84f73e7bb0867d
+SHA256sum: 3240bf97c33997e4d054a12f9dc331c7bd4b5f55f038819c7ceca89d761f0f8e
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
+Package: libgnutls
+Version: 3.3.16-1
+Depends: libc, libnettle, libgmp
+Source: feeds/packages/libs/gnutls
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: ar71xx
+Installed-Size: 293602
+Filename: libgnutls_3.3.16-1_ar71xx.ipk
+Size: 293886
+MD5Sum: 1a1df4b88cd9e2215c98639a96752781
+SHA256sum: 9e61309a4185416d64567f3a69fe1ab64f1473f9f724e7aabe2109e7c286dfd8
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libgpg-error
+Version: 1.12-1
+Depends: libc
+Source: feeds/packages/libs/libgpg-error
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: ar71xx
+Installed-Size: 5706
+Filename: libgpg-error_1.12-1_ar71xx.ipk
+Size: 6404
+MD5Sum: f26cc0c294a555dc421e95a2ba675a63
+SHA256sum: 89324a018315fd33946e5fbd328a4ffd7eea26f7ad839678a39873f49265e820
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
+Package: libjpeg
+Version: 6b-1
+Depends: libc
+Source: feeds/packages/libs/libjpeg
+License: IJG
+LicenseFiles: README
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 54928
+Filename: libjpeg_6b-1_ar71xx.ipk
+Size: 55507
+MD5Sum: 843b66a293d702b079d9d49940f79480
+SHA256sum: 6673f02111344567eca2ca13b32226ab9c7bed41559682f991874c2d3e3943ce
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libpcre
+Version: 8.35-2
+Depends: libc
+Source: feeds/packages/libs/pcre
+License: BSD-3c
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: ar71xx
+Installed-Size: 78665
+Filename: libpcre_8.35-2_ar71xx.ipk
+Size: 79371
+MD5Sum: b5e40ac28d1ebeae51cc2e5055246e8e
+SHA256sum: 502f744c19602c529e391e0cac58179b99a3d58cb4f2d788508df5e980bae198
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpng
+Version: 1.2.56-1
+Depends: libc, zlib
+Source: feeds/packages/libs/libpng
+License: Libpng GPL-2.0+ BSD-3-Clause
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 112180
+Filename: libpng_1.2.56-1_ar71xx.ipk
+Size: 112894
+MD5Sum: 236b50530834f79d3d71051189036c26
+SHA256sum: ce9009d079bd74cd5f5d53d0f12744edef54d336acf3842fd158da934692cd7c
+Description:  A PNG format files handling library
+
+Package: libprotobuf-c
+Version: 2014-06-30
+Depends: libc
+Source: feeds/packages/libs/protobuf-c
+Section: libs
+Maintainer: Jacob Siverskog <jacob@teenageengineering.com>
+Architecture: ar71xx
+Installed-Size: 10446
+Filename: libprotobuf-c_2014-06-30_ar71xx.ipk
+Size: 11162
+MD5Sum: 3824d052f073cb12ffe3f0ecfee7fffd
+SHA256sum: a2d9fa5e2f15f6b6da85647a70eb4d8751584f257dac9aff881ba69283460423
+Description:  Runtime library to use Google Protocol Buffers from C applications.
+ Protocol Buffers are a way of encoding structured data in an efficient yet
+ extensible format. Google uses Protocol Buffers for almost all of its
+ internal RPC protocols and file formats.
+
+Package: librrd1
+Version: 1.0.50-2
+Depends: libc, zlib
+Source: feeds/packages/utils/rrdtool1
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 130236
+Filename: librrd1_1.0.50-2_ar71xx.ipk
+Size: 131017
+MD5Sum: cc849d7a567dc826f6fec7092e7e8800
+SHA256sum: 6c7d25356007f2b7fe9b24b41f4f56697400321b75005f20913213e25e4e899e
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains a shared library, used by other programs.
+
+Package: libtasn1
+Version: 4.4-1
+Depends: libc
+Source: feeds/packages/libs/libtasn1
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: ar71xx
+Installed-Size: 26991
+Filename: libtasn1_4.4-1_ar71xx.ipk
+Size: 27401
+MD5Sum: 8aad3a5e3682574b7a2c920254ac4f70
+SHA256sum: 267df47972c4651cc34a0015e777458f3d6562767ce0c6919cc6e36d79aefdbc
+Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
+ Distinguish Encoding Rules (DER) manipulation.
+
+Package: libxml2
+Version: 2.9.2-2
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ar71xx
+Installed-Size: 444685
+Filename: libxml2_2.9.2-2_ar71xx.ipk
+Size: 442026
+MD5Sum: 48099f7577b77e9974d5939587d8ef46
+SHA256sum: a99b52434f6915dae3ad2f61a9c78d49529dfffce1fb46ec93b5a938547cc07c
+Description:  A library for manipulating XML and HTML resources.
+
+Package: luci-app-cshark
+Version: 2014-07-02-ec638311b0b8ef74baf0be06dcf03a641e3308a2
+Depends: libc, cshark, luci
+Source: feeds/packages/net/cshark
+Section: luci
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 3714
+Filename: luci-app-cshark_2014-07-02-ec638311b0b8ef74baf0be06dcf03a641e3308a2_ar71xx.ipk
+Size: 4322
+MD5Sum: b1f4a1dc0fa457e9451e5e36f66128df
+SHA256sum: d34501b70ad0d7d03ae6e1cfc7b0b35422da645c5ce58a20c5a1ebbd3b7840bd
+Description:  Cloudshark capture tool Web UI
+
+Package: luci-app-mwan3
+Version: 1.3-5
+Depends: libc, mwan3, luci-mod-admin-full, luci-app-firewall, luci-lib-nixio
+Source: feeds/packages/net/mwan3-luci
+License: GPLv2
+Section: LuCI
+Maintainer: Aedan Renner <chipdankly@gmail.com>
+Architecture: all
+Installed-Size: 13794
+Filename: luci-app-mwan3_1.3-5_all.ipk
+Size: 14493
+MD5Sum: db36d7a622b2efbb4bf3e2c73863be09
+SHA256sum: 5b3801464521e62ac4d8b153d39b0937a0c193cddac27283eacd845b5f06d956
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple and
+ manageable with loadbalancing/failover support for up to 250 physical or logical
+ WAN interfaces, connection tracking and an easy to manage traffic ruleset
+
+Package: luci-app-sqm
+Version: 1.0.3-1
+Depends: libc, lua, luci-base, sqm-scripts
+Source: feeds/packages/net/sqm-scripts
+License: GPLv2
+Section: luci
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 3749
+Filename: luci-app-sqm_1.0.3-1_all.ipk
+Size: 4546
+MD5Sum: a182dafd35fcc26e1d1c99d109111125
+SHA256sum: 62941e104623562743440de0ed7704cc529a309e93178464bb153eee42084908
+Description:  Control the simple_qos SQM script
+
+Package: luci-proto-openconnect
+Version: 1
+Depends: libc, luci-mod-admin-full, luci-lib-nixio, openconnect
+Source: feeds/packages/net/luci-proto-openconnect
+Section: luci
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: ar71xx
+Installed-Size: 1635
+Filename: luci-proto-openconnect_1_ar71xx.ipk
+Size: 2212
+MD5Sum: 956174a8c839f9af127a96065ce13c8f
+SHA256sum: 9f6b2da340b5991c70fa7269adbc659cb915e5cb34b715270dae265a64ea4c75
+Description:  openconnect web module for LuCi web interface
+
+Package: mwan3
+Version: 1.5-10
+Depends: libc, ip, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt
+Source: feeds/packages/net/mwan3
+License: GPLv2
+Section: net
+Maintainer: Jeroen Louwes <jeroen.louwes@gmail.com>
+Architecture: all
+Installed-Size: 4872
+Filename: mwan3_1.5-10_all.ipk
+Size: 5602
+MD5Sum: 9051ca4fdd9ba66c4ad67ac1580b847e
+SHA256sum: 185f758d3257fd7bd56602fb4d0a5fb546b3441114277684d599e24d6d45172a
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: openconnect
+Version: 7.03-3
+Depends: libc, libxml2, kmod-tun, resolveip, libgnutls
+Source: feeds/packages/net/openconnect
+Section: net
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: ar71xx
+Installed-Size: 57428
+Filename: openconnect_7.03-3_ar71xx.ipk
+Size: 57470
+MD5Sum: f5e051839f259ff0d09d1c89291bea0f
+SHA256sum: 54d8074f0e2dab54f5b1e2a0ece64097289b5c528aaafc8e2b9e15609f277607
+Description:  A VPN client compatible with Cisco's AnyConnect SSL VPN and ocserv.
+ 
+ OpenConnect is a client that follows the Cisco's AnyConnect SSL VPN protocol,
+ which is supported by IOS 12.4(9)T or later on Cisco SR500, 870, 880, 1800, 
+ 2800, 3800, 7200 Series and Cisco 7301 Routers, as well as the OpenConnect
+ VPN server.
+
+Package: polipo
+Version: 1.1.1-1
+Depends: libc
+Source: feeds/packages/net/polipo
+Section: net
+Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
+Architecture: ar71xx
+Installed-Size: 88203
+Filename: polipo_1.1.1-1_ar71xx.ipk
+Size: 88597
+MD5Sum: 4f34efb9684c5c36bc6fbd46827e040b
+SHA256sum: acb590f3b0705cf4dbf82bdcda5aa46f9528149ebe6045ec45cf063aa9a970d4
+Description:  Polipo is a small and fast caching web proxy (a web cache, an HTTP proxy,
+ a proxy server). While Polipo was designed to be used by one person or a
+ small group of people, there is nothing that prevents it from being used
+ by a larger group.
+
+Package: rrdtool1
+Version: 1.0.50-2
+Depends: libc, librrd1
+Source: feeds/packages/utils/rrdtool1
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 10824
+Filename: rrdtool1_1.0.50-2_ar71xx.ipk
+Size: 11807
+MD5Sum: 7c01edd90be295d5f247519913234676
+SHA256sum: 9e2857d65a4ba84a7ee5dcc7d718706c21c4b4a3723efbb2e647dc6417d2c57f
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains command line tools used to manage RRDs.
+
+Package: shadowsocks-client
+Version: 0.5-d8ef02715f40de0fb7ba0f7267d3f8260f38ba80
+Depends: libc, libopenssl
+Source: feeds/packages/net/shadowsocks-client
+License: MIT
+LicenseFiles: COPYING
+Section: net
+Maintainer: Zhao, Gang <gang.zhao.42@gmail.com>
+Architecture: ar71xx
+Installed-Size: 10489
+Filename: shadowsocks-client_0.5-d8ef02715f40de0fb7ba0f7267d3f8260f38ba80_ar71xx.ipk
+Size: 11126
+MD5Sum: c7022411438f858814a28b297e1d1ea8
+SHA256sum: c79084dfb69ff24f4241b4108e1ef9c485892fc68b8dcf8ef42f9d732ffa89f3
+Description:  shadowsocks client for router
+
+Package: sqm-scripts
+Version: 1.0.3-1
+Depends: libc, tc, kmod-sched, kmod-ifb, iptables, ip, iptables-mod-ipopt, iptables-mod-conntrack-extra
+Source: feeds/packages/net/sqm-scripts
+License: GPLv2
+Section: net
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 15766
+Filename: sqm-scripts_1.0.3-1_all.ipk
+Size: 16424
+MD5Sum: 02910470a689d58bc890f74cc2c33372
+SHA256sum: 2062f08ac0367c4c727249ca784328012de92a6bb2a8b7d855f44c574025c9fd
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: strongswan-charon
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 167509
+Filename: strongswan-charon_5.3.2-1_ar71xx.ipk
+Size: 167978
+MD5Sum: 95bcc9b1babeec0f75cb1d5a9a78dc1f
+SHA256sum: e17da3802fbafa32f4e1e961138942aaf4da60dd724a4d723b724692368c5e90
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains charon, an IKEv2 keying daemon.
+
+Package: strongswan-default
+Version: 5.3.2-1
+Depends: libc, strongswan, strongswan-charon, strongswan-mod-aes, strongswan-mod-attr, strongswan-mod-constraints, strongswan-mod-des, strongswan-mod-dnskey, strongswan-mod-fips-prf, strongswan-mod-gmp, strongswan-mod-hmac, strongswan-mod-kernel-netlink, strongswan-mod-md5, strongswan-mod-nonce, strongswan-mod-pem, strongswan-mod-pgp, strongswan-mod-pkcs1, strongswan-mod-pubkey, strongswan-mod-random, strongswan-mod-resolve, strongswan-mod-revocation, strongswan-mod-sha1, strongswan-mod-sha2, strongswan-mod-socket-default, strongswan-mod-stroke, strongswan-mod-updown, strongswan-mod-x509, strongswan-mod-xauth-generic, strongswan-mod-xcbc, strongswan-utils
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 104
+Filename: strongswan-default_5.3.2-1_ar71xx.ipk
+Size: 906
+MD5Sum: a3bbb81f62de27b1f65daa0c8935bd3a
+SHA256sum: 79063400dadd238d4e9cf3e5b5eaa1ff12572926ee4919748ea6086d31c4290e
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This meta-package contains only dependencies to match upstream defaults.
+
+Package: strongswan-mod-aes
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 16651
+Filename: strongswan-mod-aes_5.3.2-1_ar71xx.ipk
+Size: 15323
+MD5Sum: d202959dcfd1a96fcb80073cf9c659db
+SHA256sum: 336de4bb09bb292d8c3b9a187b12bdf9b1f9cadc088a60cf3e2fa98eeffa5f46
+Description:  StrongSwan AES crypto plugin
+
+Package: strongswan-mod-attr
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 3657
+Filename: strongswan-mod-attr_5.3.2-1_ar71xx.ipk
+Size: 4229
+MD5Sum: be8abffffdb29fa08b357fc6eeef00e9
+SHA256sum: 6f527e08b030ee6457fbae6ee5a4ac0f9217ee85067ba5e03166d7c626e61c6c
+Description:  StrongSwan file based config plugin
+
+Package: strongswan-mod-constraints
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 4086
+Filename: strongswan-mod-constraints_5.3.2-1_ar71xx.ipk
+Size: 4673
+MD5Sum: 9f4686a9b85de01ca4a7ae518944d215
+SHA256sum: 5fde5c221a8f94a85e9077b070f1126af0940563e55a23b9aa17cdc5fc34f9f2
+Description:  StrongSwan advanced X509 constraint checking plugin
+
+Package: strongswan-mod-des
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 7396
+Filename: strongswan-mod-des_5.3.2-1_ar71xx.ipk
+Size: 8010
+MD5Sum: 3a848c3405177419656d2404f6268022
+SHA256sum: 5c98a4062b699e90d875bb987a754d0a8679bffede257f90369c73faa5b5d58d
+Description:  StrongSwan DES crypto plugin
+
+Package: strongswan-mod-dnskey
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2386
+Filename: strongswan-mod-dnskey_5.3.2-1_ar71xx.ipk
+Size: 2954
+MD5Sum: f3b6d4e8b96a2a708d801d8c29fcea74
+SHA256sum: 09cd3c34bfa0dfad283593487dab1b8fab98e8ff490895e4c32f5586040a66d1
+Description:  StrongSwan DNS RR key decoding plugin
+
+Package: strongswan-mod-fips-prf
+Version: 5.3.2-1
+Depends: libc, strongswan, strongswan-mod-sha1
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2456
+Filename: strongswan-mod-fips-prf_5.3.2-1_ar71xx.ipk
+Size: 3033
+MD5Sum: 4320e8ce81c471a7747b4bdbeb6fbe18
+SHA256sum: 8ba4ba22e672d1c690158c450860950a1f94c531f5818ece2c41f1b30ef8a830
+Description:  StrongSwan FIPS PRF crypto plugin
+
+Package: strongswan-mod-gmp
+Version: 5.3.2-1
+Depends: libc, strongswan, libgmp
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 9441
+Filename: strongswan-mod-gmp_5.3.2-1_ar71xx.ipk
+Size: 10013
+MD5Sum: c2948ef29b35e6d9b3aeed12d1f0ddaa
+SHA256sum: c665b69586afe7f2b2f284b519ef78260c52f8249ffc27f014d393781040ffa1
+Description:  StrongSwan libgmp plugin
+
+Package: strongswan-mod-hmac
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2496
+Filename: strongswan-mod-hmac_5.3.2-1_ar71xx.ipk
+Size: 3061
+MD5Sum: c0144f338f164c818715e3960389d600
+SHA256sum: 6f39f3c9247675716be557f1f7fd78bdbbd8cd92c8e5e2e88156037cb193fc78
+Description:  StrongSwan HMAC crypto plugin
+
+Package: strongswan-mod-kernel-netlink
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 26282
+Filename: strongswan-mod-kernel-netlink_5.3.2-1_ar71xx.ipk
+Size: 26789
+MD5Sum: 097608b192005bc7ac4f252d5605c4e1
+SHA256sum: 65a96fc54ce13c2603c3bfd767f09d3ac4efd96ee8363968c2980d5b74c215d7
+Description:  StrongSwan netlink kernel interface plugin
+
+Package: strongswan-mod-md5
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 3993
+Filename: strongswan-mod-md5_5.3.2-1_ar71xx.ipk
+Size: 4567
+MD5Sum: ee04725abd40ebebec5c96fa38bcc563
+SHA256sum: fc5288e04ec770f50654dfc47ee3ebb3c1f3cd8dfa203a0b0b137de929684915
+Description:  StrongSwan MD5 crypto plugin
+
+Package: strongswan-mod-nonce
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 1740
+Filename: strongswan-mod-nonce_5.3.2-1_ar71xx.ipk
+Size: 2339
+MD5Sum: 869d4d0c935920c76cd242e7117e5c37
+SHA256sum: 13a38267f620352568dac1bd319b791f73e479453b274da9c6cf69d05fbe598b
+Description:  StrongSwan nonce genereation plugin
+
+Package: strongswan-mod-pem
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 5388
+Filename: strongswan-mod-pem_5.3.2-1_ar71xx.ipk
+Size: 5972
+MD5Sum: cb5050cb9f60685cc5bacbc09599c3a3
+SHA256sum: 101197a880e9542241f2105587e01a43d3361acb5c7e5531b526b966893b14ee
+Description:  StrongSwan PEM decoding plugin
+
+Package: strongswan-mod-pgp
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 5641
+Filename: strongswan-mod-pgp_5.3.2-1_ar71xx.ipk
+Size: 6217
+MD5Sum: 33a075eb3d3ca62a302c70ca52306050
+SHA256sum: 8203c1f87e6494a9544088b42b0aeb8e91c24584ee795cbd7d08585e0d256efe
+Description:  StrongSwan PGP key decoding plugin
+
+Package: strongswan-mod-pkcs1
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 3826
+Filename: strongswan-mod-pkcs1_5.3.2-1_ar71xx.ipk
+Size: 4389
+MD5Sum: f954908dc294f2e062b3f673e5c8001a
+SHA256sum: 3e9cf04077636ac42b9aa0a0c12988a5d518645c085b1eb2c62ecc4b155abcfa
+Description:  StrongSwan PKCS1 key decoding plugin
+
+Package: strongswan-mod-pubkey
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2619
+Filename: strongswan-mod-pubkey_5.3.2-1_ar71xx.ipk
+Size: 3187
+MD5Sum: 26fc5688047d7f1bbe6ab7f68f6b6bf1
+SHA256sum: 91cff5491a3a99c8d2e7c4c33521a9d2c701c5786971f6e206d1757f45e65902
+Description:  StrongSwan raw public key plugin
+
+Package: strongswan-mod-random
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2564
+Filename: strongswan-mod-random_5.3.2-1_ar71xx.ipk
+Size: 3124
+MD5Sum: fb6316f85600177c1cbcb6434cfd56a0
+SHA256sum: bd7a25484300be0427208f8ab1216209d04fc6e511b860d6830fe097842e6d76
+Description:  StrongSwan RNG plugin
+
+Package: strongswan-mod-resolve
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 3341
+Filename: strongswan-mod-resolve_5.3.2-1_ar71xx.ipk
+Size: 3913
+MD5Sum: 97052ff039d0f1c7da17c912150eba34
+SHA256sum: 3aae12dabfde2710c7054ad60ab47b0b3581b03e19dd66717c6a34213b6b692e
+Description:  StrongSwan DNS resolver plugin
+
+Package: strongswan-mod-revocation
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 4878
+Filename: strongswan-mod-revocation_5.3.2-1_ar71xx.ipk
+Size: 5464
+MD5Sum: 74aee5ae09034a972db08648f5538492
+SHA256sum: 5eba4d11c8c132d9e56d9d966b26ea88c18f77f3d8dc130413aa8e002e2129d6
+Description:  StrongSwan X509 CRL/OCSP revocation plugin
+
+Package: strongswan-mod-sha1
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 5854
+Filename: strongswan-mod-sha1_5.3.2-1_ar71xx.ipk
+Size: 6428
+MD5Sum: 054548d53119ad86544509458df266f1
+SHA256sum: f6e30cdedabaa3c9c9509c96cc67c38e89e84281971281fef95306176232ccbf
+Description:  StrongSwan SHA1 crypto plugin
+
+Package: strongswan-mod-sha2
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 5349
+Filename: strongswan-mod-sha2_5.3.2-1_ar71xx.ipk
+Size: 5926
+MD5Sum: e266f477a314cd24962263aa5dce4cb8
+SHA256sum: 01729e808a7da45cb7fa3adda43caa20cd4427c367fb85a6153646f82a2ef3d6
+Description:  StrongSwan SHA2 crypto plugin
+
+Package: strongswan-mod-socket-default
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 5065
+Filename: strongswan-mod-socket-default_5.3.2-1_ar71xx.ipk
+Size: 5677
+MD5Sum: 76f5035b2bb2c9c05d819a4012075dbc
+SHA256sum: 42ff9ad82dad24b760f281ea40e799b6dd791e7d3f8dbda6c7c1bdb6ec24a49f
+Description:  StrongSwan default socket implementation for charon plugin
+
+Package: strongswan-mod-stroke
+Version: 5.3.2-1
+Depends: libc, strongswan, strongswan-utils
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 65280
+Filename: strongswan-mod-stroke_5.3.2-1_ar71xx.ipk
+Size: 65894
+MD5Sum: c6cbf98298718a0dbc86300db1391f17
+SHA256sum: c6434b60994bf526d0a3cd7066addb3e4b000e31a7b7898df1aab13d4710638a
+Description:  StrongSwan Stroke plugin
+
+Package: strongswan-mod-updown
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 8090
+Filename: strongswan-mod-updown_5.3.2-1_ar71xx.ipk
+Size: 8691
+MD5Sum: fe7e91918936eb2bf64da0d06c9b1ac6
+SHA256sum: e1cc1000a0b102ebbc74189adb98f605dccacb6e6fe1f6adb0998390b6137651
+Description:  StrongSwan updown firewall plugin
+
+Package: strongswan-mod-x509
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 26173
+Filename: strongswan-mod-x509_5.3.2-1_ar71xx.ipk
+Size: 26279
+MD5Sum: edf6a1ea62bee4be7cc1c0fca2eba883
+SHA256sum: 3c63eae1f827ccc90c2c5b8ec7e38128a821311c0777a8f07951f9191d5f6923
+Description:  StrongSwan x509 certificate plugin
+
+Package: strongswan-mod-xauth-generic
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 2888
+Filename: strongswan-mod-xauth-generic_5.3.2-1_ar71xx.ipk
+Size: 3471
+MD5Sum: f13c3752c8f998cc27a1fd601dff139a
+SHA256sum: 4d4cd28c46775e1de1278a752724d02f9e9a9e22251be0cc1f935b30e0cb14c2
+Description:  StrongSwan generic XAuth backend plugin
+
+Package: strongswan-mod-xcbc
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 3060
+Filename: strongswan-mod-xcbc_5.3.2-1_ar71xx.ipk
+Size: 3630
+MD5Sum: bf38a9105a699e45eb640b776c2116ca
+SHA256sum: adbab8fae732e1f11a070ac0fa0a6253ab127facee5748fc501c0acdf9da0c53
+Description:  StrongSwan xcbc crypto plugin
+
+Package: strongswan-utils
+Version: 5.3.2-1
+Depends: libc, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 35206
+Filename: strongswan-utils_5.3.2-1_ar71xx.ipk
+Size: 35935
+MD5Sum: b297cba8057b8538aa195ccf46aefe53
+SHA256sum: 97b2cae2340076177e7e8851f7948ce0f38e27ff5351aaf4a8f121da201c3346
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains the pki & scepclient utilities.
+
+Package: strongswan
+Version: 5.3.2-1
+Depends: libc, libpthread, ip, kmod-crypto-authenc, kmod-ipsec, kmod-ipsec4, kmod-ipsec6, kmod-ipt-ipsec, iptables-mod-ipsec
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 121441
+Filename: strongswan_5.3.2-1_ar71xx.ipk
+Size: 120949
+MD5Sum: d76663437108f7285f443316ec9621c3
+SHA256sum: a24d3df9e589278d2dbccefd449195869652796ff90435edf5df4e1c6d7591a5
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains shared libraries and scripts.
+
+Package: tinyproxy
+Version: 1.8.3-2
+Depends: libc
+Source: feeds/packages/net/tinyproxy
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 26092
+Filename: tinyproxy_1.8.3-2_ar71xx.ipk
+Size: 26452
+MD5Sum: b88c33a3bcc0f0d0f13880c84e7082bf
+SHA256sum: b233cd7eecb71b4d4cc943598b6504b01a74823446c548b72472561c16507999
+Description:  Tinyproxy is a lightweight HTTP and HTTPS proxy
+
+Package: transmission-daemon
+Version: 2.84-1
+Depends: libc, libcurl, libopenssl, libpthread, libevent2, librt
+Source: feeds/packages/net/transmission
+Section: net
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: ar71xx
+Installed-Size: 164192
+Filename: transmission-daemon_2.84-1_ar71xx.ipk
+Size: 163546
+MD5Sum: 462d8381a5e16b1dd8ca8d9a0221e671
+SHA256sum: e6a17e69e4f9ee839fb7267e0e53cf0ceed29402cb76ee8e44c6fd9c95da30c6
+Description:  Transmission is a simple BitTorrent client.
+ It features a very simple, intuitive interface
+ on top on an efficient, cross-platform back-end.
+ This package contains the daemon itself.
+
+Package: vnstat
+Version: 1.11-4
+Depends: libc
+Source: feeds/packages/net/vnstat
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 54419
+Filename: vnstat_1.11-4_ar71xx.ipk
+Size: 54693
+MD5Sum: f921b52fd194c55ac541a7ed71829791
+SHA256sum: 1e7faabe556179d0bcdbf5247b7316157e674dc4b9fa645e324cad84e54b06d0
+Description:  vnStat is a network traffic monitor for Linux that keeps a log of daily
+ network traffic for the selected interface(s). vnStat isn't a packet
+ sniffer. The traffic information is analyzed from the /proc -filesystem,
+ so vnStat can be used without root permissions.
+
+Package: vnstati
+Version: 1.11-4
+Depends: libc, vnstat, libgd
+Source: feeds/packages/net/vnstat
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 28910
+Filename: vnstati_1.11-4_ar71xx.ipk
+Size: 29513
+MD5Sum: 98e721479eb2070af852bca4447a0c47
+SHA256sum: 13198fdf87f04cc86265e694210acc499edec9b91e0e0fb834ce13de962efbce
+Description:  The purpose of vnstati is to provide image output support for statistics
+ collected using vnstat(1). However, the image file format is limited to
+ png. All basic outputs of vnStat are supported excluding live traffic
+ features. The image can be outputted either to a file or to standard
+ output.
+
+Package: wget
+Version: 1.16-1
+Depends: libc, libpcre, libopenssl, librt
+Source: feeds/packages/net/wget
+Section: net
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: ar71xx
+Installed-Size: 166420
+Filename: wget_1.16-1_ar71xx.ipk
+Size: 166177
+MD5Sum: d7a073b35de44834484d01c9a0a2b8a1
+SHA256sum: b54278c5c792abd053b3584140147f41e23ce4499df3379815c9dd85c5b5ccb5
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: wshaper
+Version: 1.1a-1
+Depends: libc, kmod-sched, tc
+Source: feeds/packages/net/wshaper
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: all
+Installed-Size: 2068
+Filename: wshaper_1.1a-1_all.ipk
+Size: 2795
+MD5Sum: 0b4fa7d994f56182a00d8d95e2a4dc6e
+SHA256sum: 1c7077675d5d120be3dbb4233727651618fa9bc61e195d2cc088484427b14c6c
+Description:  A script to do traffing shaping with the HTB algorithm.
+ Wshaper attempts to:
+ * Maintain low latency for interfactive traffic at all times
+ * Allow 'surfing' at reasonable speeds while up or downloading
+ * Make sure uploads don't harm downloads, and the other way around
+
