@@ -1,0 +1,178 @@
+Package: ahcpd
+Version: 0.53-2
+Depends: libc, kmod-ipv6, ip, librt
+Source: feeds/routing/ahcpd
+Section: net
+Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
+Architecture: ar71xx
+Installed-Size: 18725
+Filename: ahcpd_0.53-2_ar71xx.ipk
+Size: 19423
+MD5Sum: 5fc4c0dce996a9d7effecf5c47c6057b
+SHA256sum: 2861f6361398bbaa713f2c293f23b245433b118bc64439ee19e7c202c19525be
+Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
+ Configuration Protocol (AHCP).  AHCP is designed for wireless mesh
+ networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
+ also be used on wired networks.
+
+Package: bcp38
+Version: 4-1
+Depends: libc, ipset
+Source: feeds/routing/bcp38
+Section: net
+Maintainer: Dave Taht <d+bcp38@taht.net>
+Architecture: ar71xx
+Installed-Size: 1589
+Filename: bcp38_4-1_ar71xx.ipk
+Size: 2317
+MD5Sum: edb324a8105150874b0dc831457b01a7
+SHA256sum: f9880a90af2084917a4962ae295d01a737508e40bb2276ef4a4a823576de1d20
+Description:  bcp38 implements rfc bcp 38 for home routers.
+
+Package: bmx6
+Version: r2015061604-4
+Depends: libc, kmod-ip6-tunnel, kmod-iptunnel6, kmod-tun
+Source: feeds/routing/bmx6
+Section: net
+Maintainer: Axel Neumann <neumann@cgws.de>
+Architecture: ar71xx
+Installed-Size: 130360
+Filename: bmx6_r2015061604-4_ar71xx.ipk
+Size: 130958
+MD5Sum: b98951cb5c7cb88c1dac6c93dede8af1
+SHA256sum: b7e40662c54dcc705a04bc2c5d7acd33262a6253eb9ef70c91377361244d6ba7
+Description:  BMX6 layer 3 routing daemon supporting IPv4, IPv6, and IPv4 over IPv6
+
+Package: hnetd
+Version: 2014-09-26-0c1d55d03983c726aaad010738236c2da64ca7df-1
+Depends: libc, odhcpd, odhcp6c, netifd
+Source: feeds/routing/hnetd
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 67396
+Filename: hnetd_2014-09-26-0c1d55d03983c726aaad010738236c2da64ca7df-1_ar71xx.ipk
+Size: 68043
+MD5Sum: 6e97d753639b9467bde547631d99dec1
+SHA256sum: bd35825db099ea9f8cbb439e945ba254a4e18f5fff0c939e1e2f35df49c76806
+Description:  This package provides a daemon which implementats distributed prefix assignment
+ and service discovery for a home network consisting of multiple routers
+ connected to multiple service providers. It provides a netifd protocol "hnet"
+ for use in /etc/config/network.
+
+Package: luci-app-bcp38
+Version: 2-1
+Depends: libc, lua, luci-base, bcp38
+Source: feeds/routing/luci-app-bcp38
+Section: luci
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 1530
+Filename: luci-app-bcp38_2-1_all.ipk
+Size: 2213
+MD5Sum: 2aa18fde6c09b92fccb398d70b2d2f56
+SHA256sum: f5e337851b7b80b76d0f81345535a68a431b7c23a9267c4439851e00033876d5
+Description:  Control BCP38 subnet blocking
+
+Package: luci-app-bmx6
+Version: 2
+Depends: libc, luci-lib-json, luci-mod-admin-core, luci-lib-httpclient, bmx6
+Source: feeds/routing/luci-app-bmx6
+Section: luci
+Maintainer: Pau Escrich <p4u@dabax.net>
+Architecture: ar71xx
+Installed-Size: 92377
+Filename: luci-app-bmx6_2_ar71xx.ipk
+Size: 93089
+MD5Sum: 133a004c702fe5dd6cfbb891063435eb
+SHA256sum: 40c6f079e5671b665ea3259b0c34d22ea56e72ef0b5878fd64e0ebb2fb21b96d
+Description:  bmx6 web module for LuCi web interface
+
+Package: luci-app-hnet
+Version: 2014-09-26-0c1d55d03983c726aaad010738236c2da64ca7df-1
+Depends: libc, hnetd
+Source: feeds/routing/hnetd
+Section: luci
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ar71xx
+Installed-Size: 56873
+Filename: luci-app-hnet_2014-09-26-0c1d55d03983c726aaad010738236c2da64ca7df-1_ar71xx.ipk
+Size: 57554
+MD5Sum: 6708bf47cb8c3a1bc4ebaadc4dcde525
+SHA256sum: f6c3e6ef9e96e96b1f86a651920ce8513a92d7c62166255bebcf51c287a1df28
+Description:  HNCP Homenet configuration and visualization
+
+Package: miniupnpd
+Version: 1.8.20140523-4
+Depends: libc, iptables, libip4tc, libip6tc, ip6tables, libnfnetlink
+Source: feeds/routing/miniupnpd
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: ar71xx
+Installed-Size: 46558
+Filename: miniupnpd_1.8.20140523-4_ar71xx.ipk
+Size: 47145
+MD5Sum: eb83265b69a0ce7a5c4e4bfe59d7dcc0
+SHA256sum: 63fc2c3e0ce28345d9393b400c4ee59c49cd105301129bcd3e15be765e2d209b
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: olsrd-mod-jsoninfo
+Version: 0.9.0.2-6
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: ar71xx
+Installed-Size: 14658
+Filename: olsrd-mod-jsoninfo_0.9.0.2-6_ar71xx.ipk
+Size: 15239
+MD5Sum: e9b038c394a4058ad039fd00a7f0f37d
+SHA256sum: 109ca7dcdad7578b563ccc6e22a888e9a364c7bd30b33e8d3e8c132f30fe1097
+Description:  Small informative plugin with JSON output
+
+Package: olsrd-mod-nameservice
+Version: 0.9.0.2-6
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: ar71xx
+Installed-Size: 10159
+Filename: olsrd-mod-nameservice_0.9.0.2-6_ar71xx.ipk
+Size: 10735
+MD5Sum: 9c40791ff385bd04c743b11c1e98ca12
+SHA256sum: 76a30261f694ed683a8f7c88c3df46ebd6d9ada1704aa627507cde2089f642cd
+Description:  Lightweight hostname resolver plugin
+
+Package: olsrd-mod-txtinfo
+Version: 0.9.0.2-6
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: ar71xx
+Installed-Size: 7024
+Filename: olsrd-mod-txtinfo_0.9.0.2-6_ar71xx.ipk
+Size: 7643
+MD5Sum: afb28cf21dc0f923c2cdbe6842b0b916
+SHA256sum: abbf1027a218d79938639772ec57199c5f89c38896f0aefbbc9219744f8ece06
+Description:  Small informative web server plugin
+
+Package: olsrd
+Version: 0.9.0.2-6
+Depends: libc, libpthread
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: ar71xx
+Installed-Size: 122444
+Filename: olsrd_0.9.0.2-6_ar71xx.ipk
+Size: 123136
+MD5Sum: bde996001db751f6bb57a02e517b4e83
+SHA256sum: a412504fc173ce9d57c9a3a7313a043c90c88f281dab1e80f5d29f0d3ecb9000
+Description:  OLSR (Optimized Link State Routing) daemon
+
